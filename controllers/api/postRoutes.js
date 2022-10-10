@@ -1,10 +1,14 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
-class Post extends  Model {}
 
+const router = require('express').Router();
+const {Post} = require('../../models');
+const Auth = require('../../utils/auth');
 
-Post.init({
-    id: {
-        
-    }
-})
+//find all
+
+//find one id
+
+//post create with auth
+
+//put update with id and auth
+
+//delete with id and auth

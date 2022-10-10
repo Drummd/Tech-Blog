@@ -1,10 +1,13 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
-class Comment extends  Model {}
+const router = require('express').Router();
+const {Comment} = require('../../models');
+const Auth = require('../../utils/auth');
 
+//find all
 
-Comment.init({
-    id: {
-        
-    }
-})
+//find all id
+
+//post using auth
+
+//put with id and auth
+
+//delete with id and auth

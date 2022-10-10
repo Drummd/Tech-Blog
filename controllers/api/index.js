@@ -1,9 +1,9 @@
-const User = require('./User');
-const Post = require('./Post');
-const Comment = require('./Comment');
+const router = require('express').Router();
+const userRoutes = require('./userRoutes');
+const postRoutes = require('./postRoutes');
+const commentRoutes = require('./commentRoutes');
+router.use('/users', userRoutes);
+router.use('/posts', postRoutes);
+router.use('/comments', commentRoutes);
 
-//hasMany
-//belongsto
-
-module.exports = {User, Post}
-
+module.exports = router;
