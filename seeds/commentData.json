@@ -1,8 +1,0 @@
-[
-    {
-        comment_str: " test comment 1"
-        user_id: 2,
-        post_id 3
-    }
-]
-module.exports = commentdata

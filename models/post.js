@@ -15,7 +15,7 @@ Post.init({
         allowNull: false
     },
     title: {
-        tupe: DataTypes.STRING,
+        type: DataTypes.STRING,
         allowNull: false,
     },
     user_id: {
