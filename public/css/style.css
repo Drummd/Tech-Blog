@@ -7,7 +7,10 @@
   header, .project:not(:last-child) {
     border-bottom: 1px solid #ccc;
   }
-  
+  .no-button:hover {
+    color: #065b83;
+    text-decoration: underline;
+  }
   .wrapper{
     max-width: 1200px;
   }
@@ -22,15 +25,9 @@
     font-size: 100%;
   }
   
-  .no-button:hover {
-    color: #065b83;
-    text-decoration: underline;
-  }
   
-  .logo:link{
-    color: black;
-    text-decoration: none;
-  }
+  
+  
   
   .logo:visited{
     color: black;
@@ -130,14 +127,14 @@
   .footer-margin{
     margin-top: 50px;
   }
-  
-  .form-row{
-    margin-bottom: 20px;
-  }
-  
+   
   .signup{
     margin-top: 20px;
   }
+  .form-row{
+    margin-bottom: 20px;
+  }
+ 
   
   .signup-form div{
     margin-bottom: 20px;
@@ -170,7 +167,10 @@
     border: 1px #d3d3d3 solid;
     border-radius: 10px;
   }
-  
+  .logo:link{
+    color: black;
+    text-decoration: none;
+  }
   .comment-button{
     margin-top: 20px;
   }
